@@ -396,6 +396,7 @@ The HTTP types are contained within separate GWT modules that StockWatcher needs
 
 ```
 <!-- Other module inherits -->
+	<inherits name="com.google.gwt.json.JSON" />
   <inherits name="com.google.gwt.http.HTTP" />
 
 ```
